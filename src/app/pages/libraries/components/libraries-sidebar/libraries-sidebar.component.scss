@@ -1,0 +1,24 @@
+.libraries__sidebar{
+    position: sticky;
+    top: 0;
+}
+
+.libraries__sidebar--list {
+    width: 240px;
+    height: calc(100vh - 60px);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.libraries__sidebar--item {
+    height: 48px;
+    padding-inline: 20px;
+
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        background: #d6d6d6;
+    }
+}

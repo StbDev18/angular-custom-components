@@ -1,0 +1,29 @@
+.navbar {
+    height: 60px;
+    padding-inline: 2rem;
+    background: #fafafa;
+    border-bottom: 1px solid #ebebeb;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar__item{
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+
+    display: flex;
+
+    &:hover {
+        background: #d6d6d6;
+    }
+}
+
+.navbar__link {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}

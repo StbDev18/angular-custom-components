@@ -1,0 +1,9 @@
+<div class="libraries__sidebar">
+    <div class="libraries__sidebar--list">
+        @for (item of menuLibraries(); track $index) {
+            @if (item.isMenu) {
+                <a class="libraries__sidebar--item" routerLink="{{item.route}}">{{item.label}}</a>
+            }
+        }
+    </div>
+</div>
